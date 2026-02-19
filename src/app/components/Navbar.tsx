@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex gap-6">
           <Link href="/">Accueil</Link>
           <Link href="/projects">Projets</Link>
-          <a href="#contact">Contact</a>
+          <Link href="/contact">Contact</Link>
         </div>
       </div>
     </motion.nav>
